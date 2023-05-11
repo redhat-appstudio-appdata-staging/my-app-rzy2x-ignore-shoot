@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-xoc7
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/bkorren-tenant/my-app/devfile-sample-python-basic-xoc7@sha256:7c533d4576f6ea49372761d0d280b2d8cf40d7b6ca1786bcdd618e461cc4552e
+        name: my-python
+        resources: {}
+status: {}
