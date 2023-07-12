@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/bkorren-tenant/my-app/devfile-sample-python-basic-xoc7@sha256:7c533d4576f6ea49372761d0d280b2d8cf40d7b6ca1786bcdd618e461cc4552e
+      - image: quay.io/redhat-user-workloads-stage/bkorren-tenant/my-app/devfile-sample-python-basic-xoc7@sha256:91918ca2766ce0b00e54be6bde3f8d17a0932068b7e0629e8ede484166b653b1
         name: my-python
         resources: {}
 status: {}
